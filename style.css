@@ -292,7 +292,7 @@ p {
   bottom: -8px;
 }
 
-.instructions p {
+.instructions {
   position: fixed;
   bottom: 10px;
   width: 100%;

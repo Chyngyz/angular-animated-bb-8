@@ -1,0 +1,35 @@
+<div class="bb8" style="-webkit-transform: translateX({{ $ctrl.configData.droidX }}px)">
+  <div class="antennas" ng-class="{'right': $ctrl.configData.toTheRight}"
+       style="-webkit-transform: translateX({{ ($ctrl.configData.mouseX - $ctrl.configData.droidX) / 25 }}px) rotateZ({{ ($ctrl.configData.mouseX - $ctrl.configData.droidX) / 80 }}deg)">
+    <div class="antenna short"></div>
+    <div class="antenna long"></div>
+  </div>
+  <div class="head"
+       style="-webkit-transform: translateX({{ ($ctrl.configData.mouseX - $ctrl.configData.droidX) / 15 }}px) rotateZ({{ ($ctrl.configData.mouseX - $ctrl.configData.droidX) / 25 }}deg)">
+    <div class="stripe one"></div>
+    <div class="stripe two"></div>
+    <div class="eyes" ng-class="{'right': $ctrl.configData.toTheRight}">
+      <div class="eye one"></div>
+      <div class="eye two"></div>
+    </div>
+    <div class="stripe detail" ng-class="{'right': $ctrl.configData.toTheRight}">
+      <div class="detail zero"></div>
+      <div class="detail zero"></div>
+      <div class="detail one"></div>
+      <div class="detail two"></div>
+      <div class="detail three"></div>
+      <div class="detail four"></div>
+      <div class="detail five"></div>
+      <div class="detail five"></div>
+    </div>
+    <div class="stripe three"></div>
+  </div>
+  <div class="ball" style="-webkit-transform: rotateZ({{ $ctrl.configData.droidX / 2 }}deg)">
+    <div class="lines one"></div>
+    <div class="lines two"></div>
+    <div class="ring one"></div>
+    <div class="ring two"></div>
+    <div class="ring three"></div>
+  </div>
+  <div class="shadow"></div>
+</div>
